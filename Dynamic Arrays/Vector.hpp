@@ -89,6 +89,15 @@ class Vector {
   T& front() const { return data[0]; };
   T& back() const { return data[m_size - 1]; }
 
+  void clear() { m_size = 0; }
+
+  void insert(const T& value, size_t place) {
+    
+
+  }
+
+  void remove() {}
+
   static const size_t SPARE_CAPACITY = 16;
 
  private:
